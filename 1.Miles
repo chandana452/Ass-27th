@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Miles {
+
+	public static void main(String[] args) {
+
+		double miles;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println(" enter the miles:");
+		miles = sc.nextDouble();
+
+		double kilometers = miles * 1.6;
+
+		System.out.println(kilometers + " Kilometers");
+
+	}
+}
